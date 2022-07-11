@@ -1,11 +1,10 @@
-<?php
+<!-- 
+    // $user = "root";
+    // $host = "localhost";
+    // $password = "1234";
+    // $db = "clinic_details";
 
-    $user = "root";
-    $host = "localhost";
-    $password = "1234";
-    $db = "clinic_details";
-
-    $con = mysqli_connect($host, $user, $password, $db);
+    // $con = mysqli_connect($host, $user, $password, $db);
 
     // if($con){
     //   echo "Connection sucessfull!";
@@ -15,26 +14,26 @@
     //   echo "Connection failed!";
     // }
 
-    if(isset($_POST['btn'])){
-      $uname = $_POST['uname'];
-      $address = $_POST['user_address'];
-      $mbno = $_POST['mobile_no'];
-      $email = $_POST['email'];
-      $msg = $_POST['msg'];
+    // if(isset($_POST['btn'])){
+    //   $uname = $_POST['uname'];
+    //   $address = $_POST['user_address'];
+    //   $mbno = $_POST['mobile_no'];
+    //   $email = $_POST['email'];
+    //   $msg = $_POST['msg'];
 
-      $sql = "INSERT INTO clinic_info (uname, user_address, mobile_no, email, msg) VALUES ('$uname', '$address', '$mbno', '$email', '$msg')";
+    //   $sql = "INSERT INTO clinic_info (uname, user_address, mobile_no, email, msg) VALUES ('$uname', '$address', '$mbno', '$email', '$msg')";
 
-      $res = mysqli_query($con, $sql);
+    //   $res = mysqli_query($con, $sql);
 
-      // if($res){
-      //   echo "Data uploaded sucessfully";
-      // }
-      // else{
-      //   echo "Data not uploaded !";
-      // }
-    }
+    //   if($res){
+    //     echo "Data uploaded sucessfully";
+    //   }
+    //   else{
+    //     echo "Data not uploaded !";
+    //   }
+    // } -->
 
-?>
+
 
 
 <!DOCTYPE html>
@@ -119,7 +118,7 @@
             <li><a href="home.html">Home</a></li>
             <li><a href="about.html">About US</a></li>
             <li><a href="facilities.html">Facilities</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Contact Us</a></li>
         </ul>
     </nav>
     <section>
